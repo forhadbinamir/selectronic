@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectronic</title>
+    <link rel="stylesheet" href="output-style.css">
+</head>
+
+<body>
+    <!-- site log -->
+    <section>
+        <div class="flex items-center pr-5 bg-white dark:bg-dark">
+            <div class="w-full md:w-2/12 mx-auto px-3 my-4">
+                <img class="w-[230px] h-[46px] " src="./images/Selectronic Logo.png" alt="">
+            </div>
+            <div>
+                <img class="moon w-8 cursor-pointer" id="icon" src="./images/moon.png" alt="">
+                <img class="sun w-8 cursor-pointer" id="icon" src="./images/sun.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- store product area  -->
+    <section class="bg-primary dark:bg-dark">
+        <div class=" w-[90%] mx-auto pt-10">
+            <!-- store design for desktop  -->
+            <div class="hidden md:block">
+                <div class="flex justify-between">
+                    <div class="w-[29%]">
+                        <div class="bg-info flex py-2 px-3 rounded mb-2">
+                            <img class="mr-2" src="./images/sport/Vector1.png" alt="">
+                            <h3 class="text-1xl text-base-100 ">0 items $0.00AUD</h3>
+                        </div>
+                    </div>
+                    <div class="w-[30%] ml-6 ">
+                        <div class="flex ">
+                            <select class="select select-info w-full text-base-100 max-w-xs bg-info mb-2">
+                                <option disabled selected>Name A to Z</option>
+                                <option>English</option>
+                                <option>Japanese</option>
+                                <option>Italian</option>
+                            </select>
+                            <select class="select select-info w-[40%] ml-5 text-base-100 max-w-xs bg-info mb-2">
+                                <option disabled selected>8</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="w-[50%] flex justify-center md:justify-end items-center py-2 mr-2">
+                        <button class="bg-info text-primary dark:text-primary px-3 py-3 mr-2 rounded">
+                            <img src="./images/news/_.png" alt="">
+                        </button>
+                        <button class="bg-info text-primary dark:text-primary px-3 py-1 mr-2 rounded">1</button>
+                        <button class="bg-info text-primary dark:text-primary px-3 py-1 mr-2 rounded">2</button>
+                        <button class="bg-success text-primary dark:text-primary px-3 py-1 mr-2 rounded">3</button>
+                        <button class="bg-info text-primary dark:text-primary px-3 py-1 mr-2 rounded">4</button>
+                        <button class="bg-info text-primary dark:text-primary px-3 py-1 mr-2 rounded">5</button>
+                        <button class="bg-info text-primary dark:text-primary px-3 py-3 mr-2 rounded">
+                            <img src="./images/news/_ (1).png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row">
+                <div class="w-full lg:w-[30%]">
+                    <div class="md:hidden bg-primary flex py-2 px-3 rounded mb-2">
+                        <img class="mr-2" src="./images/sport/Vector1.png" alt="">
+                        <h3 class="text-1xl text-base-100 ">0 items $0.00AUD</h3>
+                    </div>
+                    <form action="">
+                        <div class="bg-info flex py-2 px-3 rounded mb-2">
+                            <img class="mr-2" src="./images/sport/Vector.png" alt="">
+                            <input class="text-1xl text-base-100 rounded mr-2" type="text">
+                            <h3 class="text-1xl text-base-100 ml-2 ">Search</h3>
+                        </div>
+                    </form>
+                    <div class="flex py-2 px-1 rounded border-b-2 border-blue-500 mb-2">
+                        <h3 class="text-1xl text-accent font-bold">Filter By:</h3>
+                    </div>
+                    <div class="hidden md:block">
+                        <ul>
+                            <li class="text-secondary dark:text-primary">All Products</li>
+                            <li class="text-secondary dark:text-primary">SP PRO Series 1</li>
+                            <li class="text-secondary dark:text-primary">SP PRO Series II and 2i</li>
+                            <li class="text-secondary dark:text-primary">Selectronic Certified</li>
+                            <li class="text-secondary dark:text-primary">Select.live</li>
+                            <li class="text-secondary dark:text-primary">Parts</li>
+                            <li class="text-secondary dark:text-primary">Sales and Marketing Materials</li>
+                            <li class="text-secondary dark:text-primary">Selectronic Service Products</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- store design for mobile  -->
+                <div class="flex-grow">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 ml-3 ">
+                        <div class="mx-3 rounded h-[500px] grid justify-between">
+                            <div class="bg-accent rounded-md p-5">
+                                <img src="./images/sport/Rectangle 6.png" alt="">
+                            </div>
+                            <p class="text-secondary dark:text-primary text-center py-5 px-2 h-10">SP PRO Ethernet
+                                Adaptor Lead (005081)
+                                SP
+                                PRO
+                                Ethernet</p>
+                            <button class="btn btn-sm bg-info w-full ">$509.30 AUD</button>
+                        </div>
+                        <div class="mx-3 rounded h-[500px] grid justify-between">
+                            <div class="bg-accent rounded-md p-5">
+                                <img src="./images/sport/Rectangle 6 (1).png" alt="">
+                            </div>
+                            <p class="text-secondary dark:text-primary text-center py-5 px-2 h-10">Universal Battery
+                                Communications Kit
+                                (005295)
+                            </p>
+                            <button class="btn btn-sm bg-info w-full">$509.30 AUD</button>
+                        </div>
+                        <div class="mx-3 rounded h-[500px] grid justify-between">
+                            <div class="bg-accent rounded-md p-5">
+                                <img src="./images/sport/Rectangle 6 (2).png" alt="">
+                            </div>
+                            <p class="text-secondary dark:text-primary text-center py-5 px-2 h-10">Grid Fail Generator
+                                Back-Up Module
+                                (005268)
+                            </p>
+                            <button class="btn btn-sm bg-info w-full">$509.30 AUD</button>
+                        </div>
+                        <div class="mx-3 rounded h-[500px] grid justify-between">
+                            <div class="bg-accent rounded-md p-5">
+                                <img src="./images/sport/Rectangle 6 (3).png" alt="">
+                            </div>
+                            <p class="text-secondary dark:text-primary text-center py-5 px-2 h-10">250A Battery Isolator
+                                (101556) </p>
+                            <button class="btn btn-sm bg-info w-full">$509.30 AUD</button>
+                        </div>
+                        <div class="mx-3 rounded h-[500px] grid justify-between">
+                            <div class="bg-accent rounded-md p-5">
+                                <img src="./images/sport/Rectangle 6 (4).png" alt="">
+                            </div>
+                            <p class="text-secondary dark:text-primary text-center py-5 px-2 h-10">SP PRO Ethernet
+                                Adaptor Lead (005081)
+                            </p>
+                            <button class="btn btn-sm bg-info w-full">$509.30 AUD</button>
+                        </div>
+                        <div class="mx-3 rounded h-[500px] grid justify-between">
+                            <div class="bg-accent rounded-md p-5">
+                                <img src="./images/sport/Rectangle 6 (5).png" alt="">
+                            </div>
+                            <p class="text-secondary dark:text-primary text-center py-5 px-2 h-10">SP PRO Current Shunts
+                            </p>
+                            <button class="btn btn-sm bg-info w-full">$509.30 AUD</button>
+                        </div>
+                        <div class="mx-3 rounded h-[500px] grid justify-between">
+                            <div class="bg-accent rounded-md p-5">
+                                <img src="./images/sport/Rectangle 6 (6).png" alt="">
+                            </div>
+                            <p class="text-secondary dark:text-primary text-center py-5 px-2 h-10">RJ45 Communications
+                                Terminator (005324)
+                            </p>
+                            <button class="btn btn-sm bg-info w-full">$509.30 AUD</button>
+                        </div>
+                        <div class="mx-3 rounded h-[500px] grid justify-between">
+                            <div class="bg-accent rounded-md p-5">
+                                <img src="./images/sport/Rectangle 6 (7).png" alt="">
+                            </div>
+                            <p class="text-secondary dark:text-primary text-center py-5 px-2 h-10">LG Chem Stand Alone
+                                Rackmount Battery
+                                Comms
+                                Cable
+                                (005289)</p>
+                            <button class="btn btn-sm bg-info w-full">$509.30 AUD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-end items-center py-3 py-16">
+                <button class="bg-info text-primary px-3 py-3 mr-2 rounded">
+                    <img src="./images/news/_.png" alt="">
+                </button>
+                <button class="text-primary bg-info px-3 py-1 mr-2 rounded">1</button>
+                <button class="text-primary bg-info px-3 py-1 mr-2 rounded">2</button>
+                <button class="text-primary bg-success px-3 py-1 mr-2 rounded">3</button>
+                <button class="text-primary bg-info px-3 py-1 mr-2 rounded">4</button>
+                <button class="text-primary bg-info px-3 py-1 mr-2 rounded">5</button>
+                <button class="text-primary bg-info px-3 py-3 mr-2 rounded">
+                    <img src="./images/news/_ (1).png" alt="">
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer area  -->
+    <section>
+        <div class="bg-success h-[41px]">
+            <p class="text-center text-xs text-base-100 py-3">
+                © 1999-2022, Selectronic Australia Pty Ltd</p>
+        </div>
+    </section>
+
+    <!-- dark theme script code  -->
+    <script>
+        const sunIcon = document.querySelector('.sun');
+        const moonIcon = document.querySelector('.moon');
+
+        const userTheme = localStorage.getItem("theme")
+        const systemTheme = window.matchMedia("(prefers-color-scheme:dark)").matches;
+
+        const iconToggle = () => {
+            sunIcon.classList.toggle('display-none')
+            moonIcon.classList.toggle('display-none')
+        }
+
+        const themeCheck = () => {
+            if (userTheme === 'dark' || (!userTheme && systemTheme)) {
+                document.documentElement.classList.add("dark");
+                moonIcon.classList.add("display-none")
+                return
+            }
+            sunIcon.classList.add("display-none")
+        }
+
+        const themeSwitch = () => {
+            if (document.documentElement.classList.contains("dark")) {
+                document.documentElement.classList.remove("dark")
+                localStorage.setItem("theme", "light")
+                iconToggle();
+                return
+            }
+            document.documentElement.classList.add("dark")
+            localStorage.setItem("theme", "dark")
+            iconToggle();
+        }
+
+        sunIcon.addEventListener('click', () => {
+            themeSwitch()
+        })
+        moonIcon.addEventListener('click', () => {
+            themeSwitch()
+        })
+
+        themeCheck()
+    </script>
+</body>
+
+</html>
